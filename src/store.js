@@ -2,5 +2,5 @@ import {createStore} from 'redux';
 import reducer from './reducer';
 
 export default function makeStore() {
-  return createtore(reducer);
+  return createStore(reducer);
 };
